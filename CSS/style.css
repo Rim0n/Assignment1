@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-image: url("../Assets/Banner\ Image.png");
+    height: 800px;;
+    width:0 auto;
+    background-size: cover;
+    /* background-position: center; Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.header{
+    text-align: center;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    padding: 300px;
+}
