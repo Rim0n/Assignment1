@@ -1,22 +1,78 @@
 *{
-    margin: 0%;
+    margin: 16px 16px 0px;
     padding: 0%;
 }
 
-header{
+header>div {
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-image: url("../Assets/Banner\ Image.png");
-    height: 800px;;
-    width:0 auto;
     background-size: cover;
-    /* background-position: center; Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 700px;
+    
+
+    border-radius: 16px;
+    
 }
 
-.header{
-    text-align: center;
-    color: #FFF;
+#HNY {
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 800;
+
+    text-align: center;
+    padding-top: 200px;
+}
+
+#NYP {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+/* Main content */
+
+
+#sixty_five{
+
+    color: #F00;
+    text-align: center;
+    font-family: sans-serif;;
+    font-size: 88px;
+    font-weight:700 ;
+
+    padding-top: 100px;
+}
+
+.content_font{
+    color: #F00;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+
+    font-weight: 500;
+
+
+    padding-top: 50px;
+
+}
+
+#categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
     font-style: normal;
-    padding: 300px;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-top: 7px;
+}
+
+img{
+
+    
 }
